@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+}
+
+/* header section */
+.head{
+    padding: 30px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:nth-last-child(){
+    padding-right: 0px;
+}
+/* banner-background img section start */
+
+
+/* banner content section */
+.text-item{
+    margin-top: 50px;
+}
+span{
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+h1{
+    color:#626262;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+p{
+    color:#626262;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* items section start */
+ .item-image{
+    position: relative;
+    margin: 20px 0px;
+}
+.item-image img{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/* newsletter section start */
+.hg{
+    min-height: 250px;
+}
+.newsletter{
+    background-color: #f0f0f0;
+    margin-bottom: 40px; 
+}
+.newsletter-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.newsletter h1{
+   font-family:'Playfair Display', serif;
+   text-transform: uppercase;
+   color:#626262;
+   margin-bottom:50px;
+   font-size: 24px;
+}
+.newsletter input{
+   border: none;
+   background-color: transparent;
+   border-bottom:1px solid black;
+   width: 100%;
+}
+.icon img{
+    position: absolute;
+    right: 4%;
+    bottom: 0;
+}
+
+/* last item section start */
+.last-img{
+    margin-top: 20px;
+}
+/* load more button start */
+.button{
+    text-align: center;
+    background: transparent;
+    border: none;
+    margin-top: 49px;
+}
+.btn{
+    border-radius: 0px;
+}
+.btn-custom{
+    font-size: 23px;
+    padding: 10px 17px;
+}
+/*footer section start*/
+footer{
+    background-color:#f0f0f0;
+    margin-top: 100px;
+   
+ }
+ .hg-footer{
+    min-height: 120px;
+ }
+ .footer-content{
+     padding-top: 40px;
+ }
+ .terms ul li a{
+     color:#626262;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-size: 15px;
+ }
+ .social-follow ul li a{
+     color:#626262;
+     margin-left: 20px;
+}
+ .social-follow ul li a:hover{
+     color: #c2c3c5;
+ }
